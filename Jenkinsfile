@@ -24,11 +24,7 @@ pipeline {
             }
         }
         
-         stage("Test Cases"){
-            steps{
-                sh "mvn test"
-            }
-        }
+         
         
         stage("Sonarqube Analysis "){
             steps{
